@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const sequelize = require('.models//db'); // ✅ import instance
+const sequelize = require('.models/db'); // ✅ import instance
 const User = require('./models/User');
 const Product = require('./models/Product');
 const Order = require('./models/Order');
